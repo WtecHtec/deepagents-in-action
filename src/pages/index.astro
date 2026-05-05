@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import ChapterCard from '../components/ChapterCard.astro';
+import SectionHeading from '../components/SectionHeading.astro';
 import '../styles/global.css';
 
 const allChapters = await getCollection('chapters');
@@ -42,9 +43,12 @@ const publishedCount = sorted.filter(ch => ch.data.published).length;
     </section>
 
     <!-- Chapter list by section -->
-    {grouped.map(({ section, chapters }) => (
-      <section class="mb-12">
-        <div class="grid md:grid-cols-2 gap-5">
+    {grouped.map(({ section, chapters }) => {
+      const hasPublished = chapters.some(ch => ch.data.published);
+      return hasPublished ? (
+        <section class="mb-12">
+          <SectionHeading title={section} />
+          <div class="grid md:grid-cols-2 gap-5">
           {chapters.map(ch => (
             <ChapterCard
               id={ch.id}
@@ -60,7 +64,8 @@ const publishedCount = sorted.filter(ch => ch.data.published).length;
           ))}
         </div>
       </section>
-    ))}
+      ) : null;
+    })}
   </main>
   <Footer />
 </BaseLayout>
