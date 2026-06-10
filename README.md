@@ -30,8 +30,8 @@
 
 基于 [AgentSeek](https://github.com/ob-labs/agentseek) 工程化套件，帮助学员快速搭建开发环境：
 
-- [AgentSeek CLI（上）— 用 create 命令快速搭建模板应用](content/ch07-agentseek-create.md)：安装 CLI，拉取预制模板，配置环境变量，前后端联调运行。
-- [AgentSeek CLI（下）— 用 skills 命令安装开发辅助技能](content/ch08-agentseek-skills.md)：安装 langchain-dev-guide 和 langsmith-trace 技能，让 AI 编码助手提供框架级指导。
+- [`agentseek create` 搭建模板应用](content/ch07-agentseek-create.md)：拉取预制模板并前后端联调运行
+- [`agentseek skills` 安装开发技能](content/ch08-agentseek-skills.md)：为 AI 编码助手加载 LangChain 工程经验
 
 ### 认知篇
 
