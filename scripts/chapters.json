@@ -114,14 +114,17 @@
     "published": true,
     "pubDate": "2026-06-11"
   },
-  "ch09-long-term-memory": {
+  "ch08-long-term-memory": {
     "title": "长期记忆 — 让 Agent 拥有跨对话的记忆",
-    "chapter": 9,
+    "chapter": 8,
     "section": "进阶篇",
     "order": 10,
-    "description": "理解 LangGraph 的两种持久化机制，以及如何用 CompositeBackend 实现跨会话记忆。",
-    "slides": [],
-    "published": false
+    "description": "Agent 的两种记忆（短期 Checkpointer / 长期 Store）、CompositeBackend 路径路由、四种实用场景、从 InMemoryStore 到 PostgresStore 的生产升级路径。",
+    "slides": [
+      { "id": "ch08", "title": "Lec 11: 长期记忆与 CompositeBackend" }
+    ],
+    "published": true,
+    "pubDate": "2026-06-11"
   },
   "ch10-human-in-the-loop": {
     "title": "Human-in-the-Loop — 构建安全的人机协作流程",
