@@ -163,7 +163,7 @@ deepagents-in-action/
     <img src="https://avatars.githubusercontent.com/u/2936504?v=4&s=144" width="72" height="72" alt="webup" style="border-radius:50%;" /><br />
     <sub><strong>webup</strong></sub>
   </a><br />
-  <sub>43 commits</sub>
+  <sub>44 commits</sub>
 </td>
 <td align="center" valign="top" width="120">
   <a href="https://github.com/knqiufan">
@@ -171,6 +171,13 @@ deepagents-in-action/
     <sub><strong>knqiufan</strong></sub>
   </a><br />
   <sub>3 commits</sub>
+</td>
+<td align="center" valign="top" width="120">
+  <a href="https://github.com/1iyouzhen">
+    <img src="https://avatars.githubusercontent.com/u/184539312?v=4&s=144" width="72" height="72" alt="1iyouzhen" style="border-radius:50%;" /><br />
+    <sub><strong>1iyouzhen</strong></sub>
+  </a><br />
+  <sub>1 commit</sub>
 </td>
 <td align="center" valign="top" width="120">
   <a href="https://github.com/codeMonkeyWang">
