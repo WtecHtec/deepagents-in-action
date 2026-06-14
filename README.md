@@ -90,73 +90,6 @@ npx skills add ob-labs/agentseek --skill langsmith-trace
 
 ---
 
-## 本地开发
-
-### 环境要求
-
-- Node.js ≥ 22.12.0
-
-### 安装与启动
-
-```bash
-# 安装依赖
-npm install
-
-# 启动开发服务器（含内容预处理）
-npm run dev
-
-# 构建生产版本
-npm run build
-
-# 预览构建产物
-npm run preview
-```
-
-### 项目结构
-
-```
-deepagents-in-action/
-├── content/          # 章节正文（Markdown，每章一个文件）
-│   ├── ch01-agent-harness.md
-│   ├── ch02-quickstart.md
-│   └── ...
-├── public/
-│   ├── imgs/         # 正文插图
-│   └── pdfs/         # 章节 PDF
-├── scripts/
-│   ├── chapters.json # 章节元数据（标题、发布状态、视频链接等）
-│   └── prep-content.mjs  # 内容预处理脚本（注入 frontmatter）
-└── src/
-    ├── components/   # Astro 组件
-    ├── layouts/      # 页面布局
-    └── pages/        # 路由页面
-```
-
-### 内容流水线
-
-`content/` 目录中的 Markdown 文件是**源文件**，不含 frontmatter。  
-`scripts/prep-content.mjs` 在 `dev` / `build` 前自动运行，从 `scripts/chapters.json` 读取元数据，生成带 frontmatter 的文件到 `src/content/chapters/`。
-
-**添加或修改章节内容，只需编辑 `content/` 目录下对应的 `.md` 文件。**  
-**修改标题、发布状态、视频链接等元数据，编辑 `scripts/chapters.json`。**
-
----
-
-## 技术栈
-
-- [Astro 6](https://astro.build/) — 静态站点框架
-- [Tailwind CSS 4](https://tailwindcss.com/) — 样式
-- TypeScript
-
----
-
-## 开源协议
-
-课程文字内容采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议。  
-网站源代码采用 [MIT](https://opensource.org/license/mit) 协议。
-
----
-
 ## 贡献者墙
 
 <!-- contributors:start -->
@@ -221,6 +154,73 @@ deepagents-in-action/
 </tr>
 </table>
 <!-- contributors:end -->
+
+---
+
+## 本地开发
+
+### 环境要求
+
+- Node.js ≥ 22.12.0
+
+### 安装与启动
+
+```bash
+# 安装依赖
+npm install
+
+# 启动开发服务器（含内容预处理）
+npm run dev
+
+# 构建生产版本
+npm run build
+
+# 预览构建产物
+npm run preview
+```
+
+### 项目结构
+
+```
+deepagents-in-action/
+├── content/          # 章节正文（Markdown，每章一个文件）
+│   ├── ch01-agent-harness.md
+│   ├── ch02-quickstart.md
+│   └── ...
+├── public/
+│   ├── imgs/         # 正文插图
+│   └── pdfs/         # 章节 PDF
+├── scripts/
+│   ├── chapters.json # 章节元数据（标题、发布状态、视频链接等）
+│   └── prep-content.mjs  # 内容预处理脚本（注入 frontmatter）
+└── src/
+    ├── components/   # Astro 组件
+    ├── layouts/      # 页面布局
+    └── pages/        # 路由页面
+```
+
+### 内容流水线
+
+`content/` 目录中的 Markdown 文件是**源文件**，不含 frontmatter。  
+`scripts/prep-content.mjs` 在 `dev` / `build` 前自动运行，从 `scripts/chapters.json` 读取元数据，生成带 frontmatter 的文件到 `src/content/chapters/`。
+
+**添加或修改章节内容，只需编辑 `content/` 目录下对应的 `.md` 文件。**  
+**修改标题、发布状态、视频链接等元数据，编辑 `scripts/chapters.json`。**
+
+---
+
+## 技术栈
+
+- [Astro 6](https://astro.build/) — 静态站点框架
+- [Tailwind CSS 4](https://tailwindcss.com/) — 样式
+- TypeScript
+
+---
+
+## 开源协议
+
+课程文字内容采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议。  
+网站源代码采用 [MIT](https://opensource.org/license/mit) 协议。
 
 ---
 
