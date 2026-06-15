@@ -166,6 +166,18 @@ npx skills add ob-labs/agentseek --skill langsmith-trace
 
 ---
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=datawhalechina%2Fdeepagents-in-action&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=datawhalechina/deepagents-in-action&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=datawhalechina/deepagents-in-action&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=datawhalechina/deepagents-in-action&type=date&legend=top-left" />
+ </picture>
+</a>
+
+---
+
 ## 本地开发
 
 ### 环境要求
