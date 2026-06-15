@@ -114,7 +114,7 @@ Agent 调用 write_todos 更新列表：
 
 到目前为止，我们一直从 Deep Agents 的视角看 `write_todos`——"调用 `create_deep_agent()` 就自动有了"。但如果你想真正理解这个能力是**怎么实现的**，以及将来**如何自己扩展**，就需要揭开引擎盖，看看底层的 LangChain 中间件机制。
 
-还记得第 1 章的三层架构吗？Deep Agents（Harness）构建在 LangChain（Framework）之上。而 LangChain 提供了一套**中间件（Middleware）**系统——它是 Agent 能力的插件机制。`create_deep_agent()` 内部做的事情，本质上就是把一组中间件**自动组装**到了 Agent 上。
+还记得第 1 章的三层架构吗？Deep Agents（Harness）构建在 LangChain（Framework）之上。而 LangChain 提供了一套<strong>中间件（Middleware）</strong>系统——它是 Agent 能力的插件机制。`create_deep_agent()` 内部做的事情，本质上就是把一组中间件**自动组装**到了 Agent 上。
 
 `create_deep_agent()` 的中间件堆栈分为三层：
 

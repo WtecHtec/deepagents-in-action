@@ -119,7 +119,7 @@ grep("def create_agent", output_mode="content", context=3)
 
 ## 可插拔的存储后端
 
-到目前为止我们讨论的"虚拟文件系统"是一个抽象概念。具体的文件存到哪里，由**后端（Backend）**决定。
+到目前为止我们讨论的"虚拟文件系统"是一个抽象概念。具体的文件存到哪里，由<strong>后端（Backend）</strong>决定。
 
 Deep Agents 的后端是**可插拔的**——你可以根据场景选择不同的存储策略。
 
