@@ -173,14 +173,21 @@ npx skills add ob-labs/agentseek --skill langsmith-trace
   <sub>1 commit</sub>
 </td>
 <td align="center" valign="top" width="104">
+  <a href="https://github.com/ThingsWorld" title="ThingsWorld">
+    <img src="https://avatars.githubusercontent.com/u/24755216?v=4&s=144" width="72" height="72" alt="ThingsWorld" style="border-radius:50%;" />
+  </a><br />
+  <a href="https://github.com/ThingsWorld" title="打开 ThingsWorld 的 GitHub 主页"><kbd><strong>ThingsWorld</strong></kbd></a><br />
+  <sub>1 commit</sub>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="104">
   <a href="https://github.com/Walt-like" title="Walt-like">
     <img src="https://avatars.githubusercontent.com/u/56186222?v=4&s=144" width="72" height="72" alt="Walt-like" style="border-radius:50%;" />
   </a><br />
   <a href="https://github.com/Walt-like" title="打开 Walt-like 的 GitHub 主页"><kbd><strong>Walt‑like</strong></kbd></a><br />
   <sub>1 commit</sub>
 </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="104">
   <a href="https://github.com/xschen-beb" title="xschen-beb">
     <img src="https://avatars.githubusercontent.com/u/61721839?v=4&s=144" width="72" height="72" alt="xschen-beb" style="border-radius:50%;" />
